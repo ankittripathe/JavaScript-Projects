@@ -1,2 +1,2 @@
 # JavaScript-Projects
-A Repo of JavaScripts Projects..
+A Repo Series of JavaScripts Projects..
