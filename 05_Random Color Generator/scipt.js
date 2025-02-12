@@ -5,14 +5,14 @@
   (4) window.onload = getColor()   // this will also work when page load or refresh 
 */
 
-let holeBody = document.querySelector("body");
+let body = document.querySelector("body");
 let heading2 = document.getElementById("color-code");
 let btn = document.getElementById("btn");
 
 const getColor = () => {
   let randomNumber = Math.round(Math.random() * 16777215);
   let randomCode = "#" + randomNumber.toString(16)
-  holeBody.style.backgroundColor = randomCode;
+  body.style.backgroundColor = randomCode;
   heading2.textContent = randomCode; // Display color code
   navigator.clipboard.writeText(randomCode); // Copy to clipboard
 };
