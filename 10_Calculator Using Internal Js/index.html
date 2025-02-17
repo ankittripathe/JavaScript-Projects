@@ -6,7 +6,6 @@
     <title>Calculator (Using Internal JavaScripts)</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div id="calculator">
       <input type="text" id="display" />
@@ -28,12 +27,11 @@
         </button>
 
         <button
-        class="button red"
-        onclick="currentDisplay = currentDisplay.slice(0, -1); displayOutput();"
-      >
-        DEL
-      </button>
-      
+          class="button red"
+          onclick="currentDisplay = currentDisplay.slice(0, -1); displayOutput();"
+        >
+          DEL
+        </button>
 
         <button class="button" onclick="currentDisplay += '3';displayOutput()">
           3
