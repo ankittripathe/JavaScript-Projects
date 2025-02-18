@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: orangered;
+  border: none;
+  font-size: large;
+  border-radius: 6px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.main {
+  text-align: center;
+}
