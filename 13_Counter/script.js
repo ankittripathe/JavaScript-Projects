@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   counterBtn.addEventListener("click", () => {
     count++; // Increment the count variable
 
-    // update the innerHTML with new count value
+  // Update the innerHTML with new count value
     counterDisplay.innerHTML = `You clicked ${count} times`;
   });
 });
