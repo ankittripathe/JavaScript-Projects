@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.btn {
+  background-color: orangered;
+  font-size: large;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+}
+
+#inputfield {
+  padding: 8px 0px 8px 5px;
+  border-radius: 6px;
+  border: 1px solid black;
+  font-size: medium;
+}
+
+#inputfield:hover {
+  border: 1px solid crimson;
+}
+
+ol {
+  font-size: large;
+}
